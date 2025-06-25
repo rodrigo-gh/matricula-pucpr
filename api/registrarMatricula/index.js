@@ -1,8 +1,10 @@
 module.exports = async function (context, req) {
-    context.log('Requisição recebida em registrarMatricula.');
+  context.log("Função acionada!");
 
-    context.res = {
-        status: 200,
-        body: { mensagem: "Matrícula registrada com sucesso!" }
-    };
+  context.res = {
+    status: 200,
+    body: {
+      mensagem: "Função de matrícula online funcionando 🎉"
+    }
+  };
 };
