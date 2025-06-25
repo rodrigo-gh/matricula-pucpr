@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matrícula PUCPR</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Sistema de Matrícula PUCPR</h1>
+    <form id="matriculaForm">
+      <input type="text" placeholder="Nome completo" required />
+      <input type="email" placeholder="Email" required />
+      <select required>
+        <option value="">Selecione o curso</option>
+        <option>Engenharia</option>
+        <option>Direito</option>
+        <option>Administração</option>
+      </select>
+      <button type="submit">Enviar matrícula</button>
+    </form>
+    <p id="mensagem"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
